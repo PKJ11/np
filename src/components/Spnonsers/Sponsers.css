@@ -1,0 +1,19 @@
+.s-container{
+    justify-content: space-around;
+    gap: 1rem;
+}
+.s-container>img{
+    width: 9rem;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.s-container>img:hover{
+    filter: grayscale(0);
+}
+.s-heading{
+    align-items: center;
+    margin-top: 25px;
+}
+.s-heading .secondaryText{
+    text-align: center;
+}
